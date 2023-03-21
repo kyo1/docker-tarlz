@@ -2,13 +2,12 @@
 
 A Dockerfile of [tarlz](https://lzip.nongnu.org/tarlz.html), which is an archiver with lzip.
 
-
 ## How to build a image
 
 ```shell
 $ git clone https://github.com/kyo1/docker-tarlz.git
 $ cd docker-tarlz
-$ make
+$ docker build --no-cache -t tarlz .
 ```
 
 ## How to use
